@@ -174,7 +174,7 @@ function scoreBoard() { //scoreBoard function called by startGame function
         let score = document.querySelector('.score'); //score variable for the player is displayed in the popup modal.
         const modal = document.getElementById('modal');//popup modal variable
 
-        (minutes > 0) ? timerclock.innerHTML = (minutes + ":" + seconds).toString() : timerclock.innerHTML = seconds; //calculating time taken by the user to finish the game.
+        (minutes > 0) ? timerclock.innerHTML = (minutes + " : " + seconds + "sec").toString() : timerclock.innerHTML = seconds; //calculating time taken by the user to finish the game.
 
         if (rating[3].classList.contains("rating") && rating[5].classList.contains("rating") && rating[7].classList.contains("rating")) { //3 star rating
             modalrating = '<i class="fa fa-star rating"></i><i class="fa fa-star rating"></i><i class="fa fa-star rating"></i>';
