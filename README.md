@@ -5,6 +5,10 @@
 # Table of contents
 
 <ul>
+  <li>Getting Startes</li>
+  <li>prerequisites</li>
+  <li>Up and Running</li>
+  <li>Directory Structure</li>
   <li>Project Description</li>
   <li>General information</li>
   <li>Screenshots</li>
@@ -16,6 +20,76 @@
   <li>Authors</li>
   <li>License</li>
 </ul>
+
+# Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development purposes.
+Follow the Prerequisites need to run the code for furthur research.
+
+# Prerequisites
+
+<b>Softwares Needed</b>
+
+<b>Download and Install VISUAL STUDIO CODE</b>
+<br>
+https://code.visualstudio.com/download
+
+<br>
+
+<b><i>Need Browser to run or debug our code</i></b>
+<ul>
+  <li>Download and Install GOOGLE CHROME Browser</li>
+</ul>
+
+<b><i>Knowledge</i></b>
+<ul>
+  <li>Knowledge in HTML, CSS, JAVASCRIPT</li>
+</ul>
+
+<b><i>Knowledge Base</i></b>
+<ul>
+  <li>HTML TUTORIAL - https://www.w3schools.com/html/</li>
+  <li>CSS TUTORIAL - https://www.w3schools.com/css/</li>
+  <li>JS TUTORIAL - https://developer.mozilla.org/bm/docs/Web/JavaScript</li>  
+</ul>
+
+
+# Up and Running
+
+<p><b>Run the Game</b></p>
+<p><b>After Downloading Google chrome</b> --> <i>right click on index.html file in matching cards game folder</i> -> <i>Open with option</i> -> <i>select Google Chrome</i> -> <i>Play the game in the browser.</i></p>  
+
+<p><b>View project Files</b></p>
+<p><b>After Downloading Visual Studio Code</b> --> <i>Open Visual Studio Code software</i> -> <i>Open Folder option</i> -> <i>select Matching cards Game folder</i> -> <i>set up your workspace.</i></p>  
+
+
+# Directory structure
+
+<p>Matching Cards Game project folder contains following sub-folders</p>
+
+<b><i>css/</i></b>
+<ul>
+  <li>css folder contains style.css custom stylesheet written in css.</li>
+  <li>Bootstrap - Responsive front-end Framework used.</li>
+    https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+  <li>Fontawesome.css is used in this project</li>
+    https://use.fontawesome.com/releases/v5.7.2/css/all.css
+</ul>
+
+<b><i>img/</i></b>
+<p><ul><li>Contains set of image files used in the project.</li></ul></p>
+
+<b><i>js/</i></b>
+<ul>
+  <li>app.js - custom javascript code written in js.</li>
+</ul>
+
+<b><i>html</i></b>
+<ul>
+  <li>index.html - contains HTML5 content.</li>
+</ul>  
+
+
 
 # Project Description
   
