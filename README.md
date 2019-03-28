@@ -5,7 +5,7 @@
 # Table of contents
 
 <ul>
-  <li>Getting Startes</li>
+  <li>Getting Started</li>
   <li>prerequisites</li>
   <li>Up and Running</li>
   <li>Directory Structure</li>
