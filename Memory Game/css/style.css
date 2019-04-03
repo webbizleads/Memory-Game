@@ -123,6 +123,14 @@ body {
 }
 
 
+/**span style previous score**/
+.spanstyl {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 /**center alignment**/
 .align-center {
     align-content: center;
@@ -158,9 +166,12 @@ body {
 /**open cards style**/
 .cardsopen {
     width: 100%;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    border: 10px solid orange;
     font-size: 2.4em;
-    color: aliceblue;
-    background-color: #FF5733;
+    color: gold;
+    background-color: white;
 }
 
 
@@ -168,7 +179,7 @@ body {
 .maching {
     font-size: 2.4em;
     color: aliceblue;
-    background-color: #900C3F;
+    background-color: gold;
     border-radius: 25px;
  }
 
