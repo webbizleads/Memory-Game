@@ -65,6 +65,12 @@ function shuffle(array) {
 //global declaration for dom elements
 let cardsarray = document.querySelectorAll('.cards');
 let timerclock = document.querySelector('.timerclock');
+let xscores = document.getElementById('prescore');
+
+//retrieve local storage of highscore data
+let previousScore = localStorage.getItem('xscore');
+xscores.innerText = previousScore;//display previous score of the player 
+
 
 /**
 * @description startGame function invokes when each and every card clicked 
@@ -192,6 +198,8 @@ function scoreBoard() { //scoreBoard function called by startGame function
         starrating.innerHTML = modalrating; //rating display
         score.innerHTML = finalscore; //score display
         modal.style.display = "block"; //popup modal display
+
+        localStorage.setItem('xscore', finalscore);//save score in local storage.
     }
 
 }
